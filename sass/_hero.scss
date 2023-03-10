@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+.hero{
+    padding-top: 130px;
+    padding-bottom: 160px;
+    background-color: $navy;
+    &-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-text{
+        font-family: 'Pacifico', cursive;
+        font-weight: 400px;
+        font-size: 75px;
+        line-height: calc(95 / 75);
+        color: $white;
+        
+        span{
+            font-weight: 700;
+            color: $light;
+        }
+    }
+    &-desc{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .hero{
+        padding-top: 50px;
+        padding-bottom: 80px;
+        &-container{
+          flex-direction: column;
+        }
+        &-text{
+            font-size: 58px;
+        }
+        &-images{
+            margin-top: 50px;
+        }
+        &-desc{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+    }
+   
+}

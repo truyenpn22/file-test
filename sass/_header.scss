@@ -1,0 +1,36 @@
+.header{
+    padding-top: 39px;
+    background-color: $navy;
+    &-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &-text{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: calc(24.2 / 20);
+        color: $light;
+    }
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0 46px;
+    list-style-type: none;
+    &-link{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16.94 / 14);
+        color: $white;
+        text-transform: capitalize;;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .menu-item{
+      display: none;
+    }
+}

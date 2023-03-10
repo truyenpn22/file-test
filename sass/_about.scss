@@ -1,0 +1,35 @@
+.about{
+    padding-top: 96px;
+    padding-bottom: 116px;
+    background-color: $blue;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;     
+    }
+    &-title{
+        max-width: 600px;
+        margin-bottom: 49px;
+    }
+    &-text{
+        margin-top: 40px;
+        margin-bottom: 20px;     
+    }
+    &-img{
+        margin-top: 60px;
+    }
+}
+.skill{
+    display:flex;
+    align-items: stretch;
+    gap: 0 32px;
+}
+@media screen and (max-width: 767.98px) {
+    .about-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .skill{
+        gap: 0 25px;
+    }
+}
