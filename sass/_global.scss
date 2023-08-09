@@ -1,7 +1,6 @@
 body{
     line-height: 1;
     font-family: $font;
-    color: $gray;
     font-weight: 400;
 }
 button{
@@ -10,62 +9,87 @@ button{
     border: none;
 }
 span{
-    font-weight: 500;
+    font-weight: 700;
 }
 
+// section {
+//     margin-top: 35px;
+//     margin-bottom: 35px;
+// }
+
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 .text{
     font-weight: 400;
     font-size: 16px;
     line-height: calc(36.1 / 16);
 }
-.headding{
-    font-weight: 700;
-    color: $white;
-    font-size: 35px;
-    line-height: calc(52.5 / 35);
-    &-small{
-        font-size: 18px;
-        color: $white;
-        line-height: calc(32.76 / 18);
+.bar {
+    background-color: black;
+    height: 2px;
+    width: 40px;
+    margin: 0 auto;
+    &__sub{
+        background-color: black;
+        height: 2px;
+        width: 371px;
+        margin: 0 auto;
     }
 }
-.global__bar{
-    width: 162px;
-    height: 6px;
-    background-color: $light;
-}
+
 .button{
     display: inline-block;
-    border-radius: 5px;
     font-family: $font;
-    line-height: calc(16 / 16);
-    font-weight: 500;
-    font-size: 16px;
+    line-height: calc(21 / 14);
+    font-weight: 700;
+    font-size: 14px;
     cursor: pointer;
     border: none;
     outline: none;
-    color: $white;
+    color: #ffffff;
     &__primary {
-        font-weight: 500;
-        padding: 12px 18px;
-        background-color: $light;
-        color: $white;
+        padding: 12px 30px;
+        background-color: black;
+        color: #ffffff;
     }
     &__outline {
-        font-weight: 500;
-        border-radius: 20px;
-        padding: 12px 18px;
-        background-color: $light;
-        color: $white;
+        width: 300px;
+        padding: 12px 50px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        color: black;
     }
 }
-@media screen and (max-width: 767.98px) {
-    .text{
-        font-size: 12px;
-    } 
+input[type=color] {
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+
 }
+input[type=color]::-webkit-color-swatch {
+    border: 1px solid rgb(179, 177, 177);
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 1023.98px) {
+    .bar {
+        &__sub{
+            width: 225px;
+        }
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .bar {
+        &__sub{
+            width: 70px;
+        }
+    }
+  }
+

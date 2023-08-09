@@ -2,211 +2,412 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./css/app.css" />
-
 </head>
 
 <body>
+    <div class="side-bar">
+        <div class="marquee-container">
+            <div class="marquee">
+                <p><i class="ri-flashlight-fill"></i>SPECIAL OFFER: ENJOY 3 MONTHS OF
+                    SHOPIFY FOR<span>$1/MONTH</span></p>
+                <p><i class="ri-flashlight-fill"></i>SPECIAL OFFER: ENJOY 3 MONTHS OF
+                    SHOPIFY FOR<span>$1/MONTH</span></p>
+                <p><i class="ri-flashlight-fill"></i>SPECIAL OFFER: ENJOY 3 MONTHS OF
+                    SHOPIFY FOR<span>$1/MONTH</span></p>
+                    <p><i class="ri-flashlight-fill"></i>SPECIAL OFFER: ENJOY 3 MONTHS OF
+                        SHOPIFY FOR<span>$1/MONTH</span></p>
+            </div>
+        </div>
+    </div>
+
     <!-- ========== Header ============== -->
+
     <header class="header">
         <div class="container">
             <div class="header-container">
-                <p class="header-text">amrin</p>
-                <ul class="menu">
-                    <li class="menu-item">
-                        <a href="#about" class="menu-link">About</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Projects</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Blog</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Resume</a>
-                    </li>
-                </ul>
-
+                <div class="header-logo">
+                    <p class="header-img"><img src="./images/Logo.jpg" alt="Logo" /></p>
+                </div>
+                <div class="header-content">
+                    <p class="header-content_shipping">
+                        FREE SHIPPING ON ALL ORDERS. NO MINIMUM PURCHASE
+                    </p>
+                    <div class="header-content_item">
+                        <p class="header-content_item_title">
+                            <i class="ri-shopping-bag-line"></i>Shopping Cart
+                            <strong>0</strong>
+                        </p>
+                        <p class="header-content_item_title">
+                            <i class="ri-heart-line"></i>My Wish Lists
+                        </p>
+                        <p class="header-content_item_title">
+                            Sign In or Create an account
+                        </p>
+                    </div>
+                </div>
+                <div class="header-icons">
+                    <div class="header-icon"></div>
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- ========= Hero ========== -->
-    <section class="hero">
+    <nav class="navBar">
         <div class="container">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-text">Hi,<br>I am <span>A</span>mrin,<br>Web devloper</h1>
-                    <p class="text hero-desc">Frontend Developer, Profficienct in React & Node</p>
-                    <a href="#" class="button button__primary">See Projects</a>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#about" class="menu-link">New In</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Trend</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Collections</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">LookBook</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Demo</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Shop Instagram</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Blog</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Brands</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">FAQs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-content_desc">
+                    <h1 class="hero-content_desc_title">COSMOPOLIS</h1>
+                    <p class="bar"></p>
+                    <p class="hero-content_desc_text">
+                        Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo
+                        lacus meleifend menean diverra loremous.
+                    </p>
+                    <a href="#" class="button button__primary">SHOP NOW</a>
                 </div>
-                <div class="hero-images">
-                    <img src="./images/hero-img.png" alt="hero images">
+                <div class="hero-content_avatar">
+                    <img src="./images/avatar.jpg" alt="img-avatar" />
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- ========== About =========== -->
-    <section class="about" id="about">
+    <section class="banner">
         <div class="container">
-            <div class="about-container">
-                <div class="about-title">
-                    <h1 class="headding">About me</h1>
-                    <div class="global__bar"></div>
-                    <div class="about-text">
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique enim ac
-                            felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis
-                            nisi luctus. Nunc viverra tempus eleifend. Sed posuere augue non nulla consectetur
-                            hendrerit. In molestie urna in viverra pulvinar. Aenean facilisis id massa pretium lobortis
-                        </p>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique enim ac
-                            felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis
-                            nisi luctus. Nunc</p>
+            <div class="banner-wrapper">
+                <div class="banner-wrapper_image">
+                    <img src="./images/Layer1.jpg" alt="Layer1" />
+                    <div class="banner-wrapper_content">
+                        <h3>EDITOR’S PICK</h3>
                     </div>
-                    <h3 class="headding-small">Technologies I’ve worked with:</h3>
-                    <div class="skill">
-                        <div class="skill-item">
-                            <p class="text">Html</p>
-                            <p class="text">CSS</p>
-                            <p class="text">JavaScript</p>
-                        </div>
-                        <div class="skill-item">
-                            <p class="text">React.js</p>
-                            <p class="text">Bootstrap, Scss</p>
-                            <p class="text">Node.js, Express</p>
-                            <p class="text">MongoDB</p>
-                        </div>
+                </div>
+                <div class="banner-wrapper_image">
+                    <img src="./images/Layer2.jpg" alt="Layer1" />
+                    <div class="banner-wrapper_content">
+                        <h3>SHOES</h3>
                     </div>
-
                 </div>
-                <div class="about-img">
-                    <img src="./images/about-img.png" alt="about images">
+                <div class="banner-wrapper_image">
+                    <img src="./images/Layer3.jpg" alt="Layer1" />
+                    <div class="banner-wrapper_content">
+                        <h3>ACCESSORIES</h3>
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- ======== Projects ========== -->
-
-    <section class="projects">
+    <section class="products">
         <div class="container">
-            <div class="projects-container">
-                <h1 class="headding">Projects</h1>
-                <div class="global__bar"></div>
-                <p class="text projects-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique
-                    enim ac felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis
-                    nisi luctus. Nunc</p>
-                <div class="projects-file">
-                    <a href=""></a>
-                    <a href="#"><img src="./images/1.png" alt="projects image"></a>
-                    <a href="#"><img src="./images/2.png" alt="projects image"></a>
-                    <a href="#"><img src="./images/3.png" alt="projects image"></a>
-                    <a href="#"><img src="./images/4.png" alt="projects image"></a>
-                    <a href="#"><img src="./images/5.png" alt="projects image"></a>
-                    <a href="#"><img src="./images/6.png" alt="projects image"></a>
-                    <a href="#"><img src="./images/7.png" alt="projects image"></a>
-                </div>
-                <a href="#" class="button button__primary">More Projects</a>
+            <div class="products-arrivals">
+                <p class="bar__sub"></p>
+                <h3 class="products-arrivals_title">NEW ARRIVALS</h3>
+                <p class="bar__sub"></p>
             </div>
-        </div>
-    </section>
-
-    <!-- ======= Blog ======== -->
-
-    <section class="blog">
-        <div class="container">
-            <div class="blog-container">
-                <div class="blog-content">
-                    <h1 class="headding">Blog</h1>
-                    <div class="global__bar" style="width: 75px;"></div>
-                    <p class="text blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique
-                        enim ac felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget
-                        venenatis nisi luctus. Nunc</p>
-                    <div class="worked">
-                        <div class="worked-content">
-                            <img src="./images/blog.png" alt="blog images">
-                            <div class="worked-tag">
-                                <a href="#" class="button button__outline">
-                                    Tag
-                                </a>
-                                <a href="#" class="button button__outline">
-                                    Tag
-                                </a>
-                            </div>
-                            <p class="text worked-desc">ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit,
-                                eget venenatis nisi luctus. Nunc</p>
-                            <a href="#" class="button button__primary">Read More</a>
+            <div class="products-view">
+                <p>View All</p>
+            </div>
+            <div class="content">
+                <div class="content-view">
+                    <div class="content-view_items">
+                        <img src="./images/items1.jpg" alt="items1" />
+                        <div class="content-view_items_heart">
+                            <i class="ri-heart-line"></i>
                         </div>
-                        <div class="worked-content">
-                            <img src="./images/blog-2.png" alt="blog images">
-                            <div class="worked-tag">
-                                <a href="#" class="button button__outline">
-                                    Tag
-                                </a>
-                                <a href="#" class="button button__outline">
-                                    Tag
-                                </a>
-                            </div>
-                            <p class="text worked-desc">ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit,
-                                eget venenatis nisi luctus. Nunc</p>
+                        <div class="content-view_items_card">
+                            <a href="#" class="button button__outline">SHOW NOW</a>
                         </div>
                     </div>
-
+                    <div class="content-view_desc">
+                        <h3>SODLING</h3>
+                        <p>Naminos Dementus A Milance - Pattern</p>
+                        <span>$86.00 - $99.00</span>
+                        <div class="content-view_items_desc">
+                            <input class="rounded" type="color" value="#FE0000" />
+                            <input class="rounded" type="color" value="#F0DE36" />
+                            <input class="rounded" type="color" value="#22A699" />
+                        </div>
+                    </div>
                 </div>
-
+                <div class="content-view">
+                    <div class="content-view_items">
+                        <img src="./images/items1.jpg" alt="items1" />
+                        <div class="content-view_items_heart">
+                            <i class="ri-heart-line"></i>
+                        </div>
+                        <div class="content-view_items_card">
+                            <a href="#" class="button button__outline">SHOW NOW</a>
+                        </div>
+                    </div>
+                    <div class="content-view_desc">
+                        <h3>SODLING</h3>
+                        <p>Naminos Dementus A Milance - Pattern</p>
+                        <span>$86.00 - $99.00</span>
+                        <div class="content-view_items_desc">
+                            <input class="rounded" type="color" value="#FE0000" />
+                            <input class="rounded" type="color" value="#F0DE36" />
+                            <input class="rounded" type="color" value="#22A699" />
+                        </div>
+                    </div>
+                </div>
+                <div class="content-view">
+                    <div class="content-view_items">
+                        <img src="./images/items1.jpg" alt="items1" />
+                        <div class="content-view_items_heart">
+                            <i class="ri-heart-line"></i>
+                        </div>
+                        <div class="content-view_items_card">
+                            <a href="#" class="button button__outline">SHOW NOW</a>
+                        </div>
+                    </div>
+                    <div class="content-view_desc">
+                        <h3>SODLING</h3>
+                        <p>Naminos Dementus A Milance - Pattern</p>
+                        <span>$86.00 - $99.00</span>
+                        <div class="content-view_items_desc">
+                            <input class="rounded" type="color" value="#FE0000" />
+                            <input class="rounded" type="color" value="#F0DE36" />
+                            <input class="rounded" type="color" value="#22A699" />
+                        </div>
+                    </div>
+                </div>
+                <div class="content-view">
+                    <div class="content-view_items">
+                        <img src="./images/items1.jpg" alt="items1" />
+                        <div class="content-view_items_heart">
+                            <i class="ri-heart-line"></i>
+                        </div>
+                        <div class="content-view_items_card">
+                            <a href="#" class="button button__outline">SHOW NOW</a>
+                        </div>
+                    </div>
+                    <div class="content-view_desc">
+                        <h3>SODLING</h3>
+                        <p>Naminos Dementus A Milance - Pattern</p>
+                        <span>$86.00 - $99.00</span>
+                        <div class="content-view_items_desc">
+                            <input class="rounded" type="color" value="#FE0000" />
+                            <input class="rounded" type="color" value="#F0DE36" />
+                            <input class="rounded" type="color" value="#22A699" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-btn">
+                <a href="#" class="button button__outline">SHOW MORE</a>
             </div>
         </div>
     </section>
 
-    <!-- ========= Contact ========== -->
-
-    <section class="contact">
+    <section class="silder">
         <div class="container">
-            <div class="contact-container">
-                <div class="contact-title">
-                    <h1 class="headding">Contact Me</h1>
-                    <div class="global__bar contact-bar" style="width: 198px;"></div>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique enim ac
-                        felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi
-                        luctus. Nunc</p>
+            <div class="silder-content">
+                <h1><i class="ri-instagram-line"></i> #ELLA ON INSTAGRAM</h1>
+                <p>Phasellus lorem malesuada ligula pulvinar commodo maecenas</p>
+            </div>
+            <div class="silder-wrapper">
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider1.jpg" alt="Image 1">
                 </div>
-                <div class="contact-address">
-                    <h3 class="headding-small">Email: <small class="text">&nbsp coderamrin@gmail.com</small></h3>
-                    <h3 class="headding-small">Phone: <small class="text">&nbsp 222-3342-2482</small></h3>
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider2.jpg" alt="Image 2">
+                </div>
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider3.jpg" alt="Image 3">
+                </div>
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider4.jpg" alt="Image 3">
+                </div>
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider5.jpg" alt="Image 3">
+                </div>
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider1.jpg" alt="Image 3">
+                </div>
+                <div class="slider-wrapper_items">
+                    <img src="./images/slider2.jpg" alt="Image 3">
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="btn-silder">
 
+                <a href="#" class="button button__primary ">VIEW GALLERY</a>
+            </div>
+        </div>
+
+    </section>
     <footer class="footer">
         <div class="container">
-            <div class="footer-container">
-                <div class="footer-content">
-                    <img src="./images/logo.png" alt="logo images">
-                    <p class="text footer-text">2022 coderamrin all right reserved</p>
+            <div class="footer-list">
+                <div class="footer-column">
+                    <h3 class="footer-title">
+                        SHOP
+                    </h3>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">New In</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">New In</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">New In</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">New In</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">New In</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">New In</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="footer-media">
-                    <a href="#"><img src="./images/facebook.png" alt="logo media"></a>
-                    <a href="#"><img src="./images/twiter.png" alt="logo media"></a>
-                    <a href="#"><img src="./images/foolball.png" alt="logo media"></a>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">
+                        INFORMATION
+                    </h3>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">
+                        CUSTOMER SERVICE
+                    </h3>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Search Terms</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Search Terms</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Search Terms</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Search Terms</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Search Terms</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Search Terms</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">
+                        NEWSLETTER SIGN UP
+                    </h3>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Sign up for exclusive updates, new arrivals & insider only
+                                discounts</a>
+                        </li>
+                    </ul>
+                    <div class="form-btn">
+                        <input type="text" placeholder="Enter your email..." required style="box-shadow: none">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                    <div class="item-icon">
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </div>
                 </div>
             </div>
-
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="hedding">
+                    <div class="hedding-text">
+                        © 2014 Ella Demo. All Rights Reserved. Powered by Shopify.
+                        Shopify Themes by HaloThemes.com
+                    </div>
+                    <div class="hedding-pay">
+                        <img src="./images/visa.jpg" alt="image-pay">
+                        <img src="./images/visa.jpg" alt="image-pay">
+                        <img src="./images/visa.jpg" alt="image-pay">
+                        <img src="./images/visa.jpg" alt="image-pay">
+                        <img src="./images/visa.jpg" alt="image-pay">
+                        <img src="./images/visa.jpg" alt="image-pay">
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
